@@ -1,0 +1,10 @@
+{
+  "name": "mllp-sender",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to send HL7 messages over MLLP.",
+  "main": "sendHL7.js",
+  "scripts": {
+    "start": "node sendHL7.js"
+  },
+  "dependencies": {}
+}
