@@ -4,7 +4,10 @@
   "description": "A simple Node.js app to send HL7 messages over MLLP.",
   "main": "sendHL7.js",
   "scripts": {
-    "start": "node sendHL7.js"
+    "start": "node sendHL7.js",
+    "test": "jest"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
